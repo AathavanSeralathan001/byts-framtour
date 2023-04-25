@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:28px;
+}
+
+.nav-li{
+    font-size: larger;
+    font-weight:400;
+    
+}
+
+@media only screen and (max-width:480px){
+
+    .nav-ul{
+        list-style: none;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap:28px;
+    }
+}

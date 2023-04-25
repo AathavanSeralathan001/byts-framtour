@@ -1,0 +1,72 @@
+.container{
+    background-color: #FFFAF3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hero-content{
+    padding: 5%;
+    margin: 5%;
+}
+
+.herologo
+{
+    width:40px;
+    height:40px;
+    object-fit: contain;
+}
+
+.hero-text
+{
+    text-align: center;
+}
+
+.farm{
+    font-family:'Playfair Display', serif; 
+    font-size: 50px;
+}
+
+.tour {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    font-size: 70px;
+    
+}
+
+.herodecor{
+    width: 50%;
+    margin-top: -20px;
+    object-fit:cover;
+    margin: auto;
+
+}
+
+.heroimg-container img
+{
+    width: 95vh;
+    padding: 10%;
+    margin: 5%;
+}
+
+[class*="hero-img"] {
+    width: 100%;
+  }
+
+@media only screen and (max-width: 800px) {
+    
+    .hero-img{
+        width: 100%;
+    }
+    .heroimg-container img
+    {
+    width: 80vh;
+    padding: 5%;
+    margin: 2%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    
+}
